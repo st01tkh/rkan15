@@ -3,7 +3,7 @@
 #################################################################################
 
 # To verify the installation this could use Get-WindowsFeature
-Write-Host "Installing Web server role features (IIS, MSMQ, .NET 4.5)"
+Write-Host "Installing AD-Domain-Services/DNS/DHCP"
 Install-WindowsFeature AD-Domain-Services
 Install-WindowsFeature DNS
 Install-WindowsFeature DHCP
